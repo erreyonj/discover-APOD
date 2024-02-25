@@ -1,0 +1,110 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+
+body{
+  background-color: rgb(48, 74, 127);
+  font-family: "Space Mono";
+  color: rgb(170, 144, 240);
+}
+
+html{
+  font-size: 62.5%;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.hidden{
+  display: none;
+  visibility: hidden;
+}
+
+.flex {
+  display: flex;
+  place-content: center;
+}
+
+.flex.col{
+  display: flex;
+  flex-flow: column;
+}
+
+#main{
+  height: 100vh;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  height: 500px;
+}
+
+input{
+  width: 300px;
+  margin: 0 auto;
+  font-size: 1.45rem;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: rgb(170, 144, 240)
+  
+
+}
+
+iframe{
+  margin: 5px auto;
+  width: 500px;
+  height: 275px;
+}
+
+button{
+  width: 120px;
+  margin: 10px auto;
+  padding: 7px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 2px;
+  background-color: transparent;
+  box-shadow: -1px -1px 1px #999,
+              1px 1px 4px rgb(39, 53, 83),
+              inset -2px -2px 3px rgb(39, 53, 83),
+              inset .5px 1px 2px #999;
+  color: rgb(170, 144, 240)
+}
+
+button:hover{
+  box-shadow: inset -2px -2px 3px rgb(39, 53, 83),
+  inset .5px 1px 2px #999;;
+}
+
+
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+h3{
+  width: 700px;
+  margin: 30px auto;
+  font-size: 1.65rem;
+  text-align: center;
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
