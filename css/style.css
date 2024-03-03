@@ -56,8 +56,14 @@ input{
   border: none;
   outline: none;
   color: rgb(170, 144, 240)
-  
+}
 
+::-webkit-calendar-picker-indicator {
+  filter: invert(1)
+          brightness(60%)
+          sepia(50%)
+          saturate(1000%)
+          hue-rotate(260deg);
 }
 
 iframe{
